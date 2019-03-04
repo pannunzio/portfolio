@@ -1,1 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
 http://marianapannunzio.netlify.com/* http://marianapannunzio.me/:splat 301!
