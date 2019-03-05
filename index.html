@@ -10,13 +10,19 @@
 
   <title>Mariana Pannunzio | Design & Development</title>
 
+
+  <!-- RESET -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
 
   <!-- Custom styles for this template -->
-  <link href="css/grayscale.min.css" rel="stylesheet">
-
+  <link href="css/grayscale.css" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
 </head>
 
 <body id="main">
@@ -25,9 +31,15 @@
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 text-uppercase">UNDER CONSTRUCTION</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">lorem ipsum</h2>
-        <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+        <h1 class="mx-auto my-0">Mariana Pannunzio</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Creative Designer & Developer</h2>
+        <a href="#about" class="btn btn-primary js-scroll-trigger">Explore</a>
+        <p>
+          <br>
+          Hi Noah, so far for the prototype i've got the structure down and the navigational tabs (as well as basic css for the body of pages)!
+          <br>
+          cheers
+        </p>
       </div>
     </div>
   </header>
@@ -36,25 +48,84 @@
   <section id="about" class="about-section text-center">
     <div class="container">
       <div class="row">
-        <div class="col-lg-7 mx-auto">
-          <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-          <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-            <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+        <div class="col-lg-6 mx-auto">
+          <h2 class="text-white mb-3">Mariana Pannunzio - Artist, designer, and developer.</h2>
+          <p class="text-white-50">
+            <a href = "mailto:writeemail@here.com?subject=Work%20Inquiry" target="_top">
+            writeemail@here.com
+            </a>
+            <br>
+            Ryerson University - RTA School of Media
+            <br>
+            New Media - 2<sup>nd</sup> year student.
+            <br>
+            <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque in dictum non consectetur a. Morbi tristique senectus et netus et malesuada fames ac turpis. Congue eu consequat ac felis donec et odio pellentesque. 
+          </p>
         </div>
+        <div class="col-lg-1 mx-auto"></div>
         <div class="col-lg-5 mx-auto">
-          <h2 class="text-white mb-4">RIGHT SIDE OF THE PAGE?????????</h2>
-          <p class="text-white-50">IM TRYING Y BEST
+          <h2 class="text-white mb-4">Contact</h2>
+          <form>
+            <div class="form-group row">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" placeholder="What's your name?" required=true>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" placeholder="What's your e-mail?" required=true>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-12">
+                <input type="textarea" class="form-control" placeholder="What's your message?" required=true>
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-sm-12">
+                <button type="submit" class="btn btn-primary">Send!</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="contact-section bg-black">
+            <div class="social d-flex justify-content-center">
+              <a href="#" class="mx-2">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="mx-2">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="mx-2">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Projects Section -->
-  <section id="projects" class="projects-section bg-light">
+  <section id="projects" class="projects-section bg-light align-content-stretch ">
     <div class="container">
+      <div class="row">
+        <span>intro to portfolio here!</span>         
+      </div>
+      <div class="row">
+        <a href="portfolio/main.html">
+          <button type="button" class="btn btn-primary">Click here to see more!</button>
+        </a>
+      </div>
 
-      <!-- Featured Project Row -->
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+
+      <!--div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
           <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
         </div>
@@ -66,7 +137,6 @@
         </div>
       </div>
 
-      <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
           <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
@@ -84,7 +154,6 @@
         </div>
       </div>
 
-      <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
           <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
@@ -100,70 +169,13 @@
             </div>
           </div>
         </div>
-      </div>
+      </div-->
 
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section class="contact-section bg-black">
-    <div class="container">
-
-      <div class="row">
-
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Address</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-envelope text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Email</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">
-                <a href="#">hello@yourdomain.com</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-mobile-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Phone</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">+1 (555) 902-8832</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="social d-flex justify-content-center">
-        <a href="#" class="mx-2">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="#" class="mx-2">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="#" class="mx-2">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
-
-    </div>
-  </section>
-
+<div> test </div>
   <!-- Footer -->
-  <footer class="bg-black small text-center text-white-50">
     <nav class="navbar fixed-bottom navbar-expand-lg navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -188,8 +200,6 @@
           </form>
         </div>
       </nav>
-
-  </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
