@@ -26,20 +26,38 @@
 </head>
 
 <body id="main">
-  
+  <section  style="height: 1200px;width: 100%;">
+    <div id="tester" style="height: 700px;width: 3000px;">
+      TEST
+      <div id="new_load">
+        
+      </div>
+         <script>
+          $(document).ready( function() {
+              $("#new_load").on("click", function() {
+                  $("#content").load("/processing/p5sketch.html");
+              });
+          });
+          </script>
+TEST 2
+    </div>
+  </section>
   <!-- Header -->
-  <header class="masthead">
+  <header class="masthead" id="tester">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0">Mariana Pannunzio</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">Creative Designer & Developer</h2>
-        <a href="#about" class="btn btn-primary js-scroll-trigger">Explore</a>
-        <p>
-          <br>
-          Hi Noah, so far for the prototype i've got the structure down and the navigational tabs (as well as basic css for the body of pages)!
-          <br>
-          cheers
-        </p>
+        <div id="app">
+          <h1 class="mx-auto my-0">Mariana Pannunzio</h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">Creative Designer & Developer</h2>
+          <a href="#about" class="btn btn-primary js-scroll-trigger">Explore</a>
+          <p>
+            <br>
+            Hi Noah, so far for the prototype i've got the structure down and the navigational tabs (as well as basic css for the body of pages)!
+            <br>
+            cheers
+          </p>
+
+        </div>
       </div>
     </div>
   </header>
@@ -113,7 +131,7 @@
   </section>
 
   <!-- Projects Section -->
-  <section id="projects" class="projects-section bg-light align-content-stretch ">
+  <!--section id="projects" class="projects-section bg-light align-content-stretch ">
     <div class="container">
       <div class="row">
         <span>intro to portfolio here!</span>         
@@ -125,7 +143,7 @@
       </div>
 
 
-      <!--div class="row align-items-center no-gutters mb-4 mb-lg-5">
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
           <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
         </div>
@@ -169,10 +187,10 @@
             </div>
           </div>
         </div>
-      </div-->
+      </div>
 
     </div>
-  </section>
+  </section-->
 
 <div> test </div>
   <!-- Footer -->
@@ -210,6 +228,7 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
+  
 
 </body>
 
