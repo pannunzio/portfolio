@@ -26,25 +26,9 @@
 </head>
 
 <body id="main">
-  <section  style="height: 1200px;width: 100%;">
-    <div id="tester" style="height: 700px;width: 3000px;">
-      TEST
-      <div id="new_load">
-        
-      </div>
-         <script>
-          $(document).ready( function() {
-              $("#new_load").on("click", function() {
-                  $("#content").load("/processing/p5sketch.html");
-              });
-          });
-          </script>
-TEST 2
-    </div>
-  </section>
-  <!-- Header -->
+  <!-- Header -->  
   <header class="masthead" id="tester">
-    <div class="container d-flex h-100 align-items-center">
+    <div  id="sketch" class="container d-flex h-100 align-items-center sketch-container">
       <div class="mx-auto text-center">
         <div id="app">
           <h1 class="mx-auto my-0">Mariana Pannunzio</h1>
@@ -56,10 +40,10 @@ TEST 2
             <br>
             cheers
           </p>
-
         </div>
       </div>
     </div>
+
   </header>
 
   <!-- About Section -->
@@ -192,7 +176,7 @@ TEST 2
     </div>
   </section-->
 
-<div> test </div>
+<div id="hi"> test </div>
   <!-- Footer -->
     <nav class="navbar fixed-bottom navbar-expand-lg navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -230,6 +214,8 @@ TEST 2
   <script src="js/grayscale.min.js"></script>
   
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
+  <script src="processing/p5sketch.js"></script>
 </body>
 
 </html>

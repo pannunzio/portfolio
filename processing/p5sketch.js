@@ -1,5 +1,6 @@
 function setup() {
-  createCanvas(640, 480);
+  var cnv = createCanvas(windowWidth, windowHeight);
+  cnv.parent('tester');
 }
 
 function draw() {

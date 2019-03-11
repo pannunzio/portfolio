@@ -120,6 +120,13 @@ footer form {
   background-size: cover;
 }
 
+.masthead .sketch-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .masthead h1 {
   font-family: 'Amatic SC', cursive;
   font-size: 2.5rem;
