@@ -112,7 +112,8 @@ footer form {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 21, 1)), to(#4C0066));
+  /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 21, 1)), to(#4C0066));*/
+  background: -webkit-linear-gradient(left, black 70%, #000C18 90%, #00356C);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -199,7 +200,8 @@ footer form {
 
 .about-section {
   padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(50%, #000000), to(#00356C));
+  background: -webkit-linear-gradient(right, black 70%, #000C18 90%, #00356C);
+/*  background: -webkit-linear-gradient(left, right, #000000, color-stop(50%, #000000), #00356C);*/
 }
 
 .about-section p {
