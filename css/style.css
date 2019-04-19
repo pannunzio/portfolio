@@ -26,7 +26,7 @@ footer form {
 
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: ##600A8C
 }
 
 #mainNav .navbar-toggler {
@@ -68,7 +68,7 @@ footer form {
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(140, 0, 175, 0.5);
   }
   #mainNav .nav-link {
     -webkit-transition: none;
@@ -112,8 +112,7 @@ footer form {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616));
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 21, 1)), to(#4C0066));
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -130,17 +129,16 @@ footer form {
 .masthead h1 {
   font-family: 'Amatic SC', cursive;
   font-size: 2.5rem;
-  font-size: 400%;
+  font-size: 200%;
   line-height: 5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  color: #FFEA00;
 }
 
 .masthead h2 {
   font-size: 5rem;
   font-size: 230%;
+  color: #FFEA00;
 }
 
 @media (min-width: 768px) {
@@ -176,27 +174,32 @@ footer form {
   border: 0;
 }
 
+.btn a:hover{
+  background-color: #7E9B0C;
+  color: white;
+}
+
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #7CDB00;
+  color: #3C4000;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: ##7E9B0C;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #7E9B0C;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #7E9B0C !important;
 }
 
 .about-section {
   padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(50%, #000000), to(#00356C));
 }
 
 .about-section p {
@@ -232,28 +235,6 @@ footer form {
     border-width: .25rem;
     width: 30%;
   }
-}
-
-.signup-section {
-  padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-.signup-section .form-inline input {
-  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  height: auto;
-  font-family: 'Varela Round';
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
 }
 
 .contact-section {
@@ -315,7 +296,7 @@ a:focus, a:hover {
 }
 
 .bg-black {
-  background-color: #161616 !important;
+  background-color: #000000 !important;
 }
 
 .bg-primary {
