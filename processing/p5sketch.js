@@ -1,6 +1,6 @@
 
 function setup() {
- var cnv = createCanvas(windowWidth, windowHeight);
+ var cnv = createCanvas(windowWidth-10, windowHeight);
   cnv.parent('tester');
 }
 

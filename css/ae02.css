@@ -1,0 +1,30 @@
+body{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background: -webkit-linear-gradient(left, black 70%, #180000 90%, #6C0000);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+}
+
+.masthead-ae{
+	position: relative;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(left, black 70%, #180000 90%, #6C0000);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead-ae h1{
+	font-family: 'Amatic SC', cursive;
+	font-size: 6rem;
+	line-height: 7rem;
+	letter-spacing: 0.2rem;
+	padding: 2rem 2rem;
+	color: #FFEA00;
+}
