@@ -249,6 +249,11 @@ nav a{
   padding: 1rem 1rem;
 }
 
+.card-row a{
+  color:black;
+  font-style: bold;
+}
+
 body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
@@ -327,7 +332,59 @@ a:focus, a:hover {
 }
 
 .portfolio-directory{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(left, black 70%, #000C18 90%, #00356C);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  padding-top: 2rem;
+}
 
+.portfolio-directory h1 { /*this guy is for the teeny tiny mobile view*/
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  letter-spacing: 0.2rem;
+  color: #FFEA00;
+}
+
+.portfolio-directory h2 {
+  font-size: 1.5rem;
+  color: #FFEA00;
+}
+
+@media (min-width: 768px) { /* this guy is for the ipad browser view*/
+  .portfolio-directory h1 {
+    font-size: 5.5rem;
+    line-height: 6rem;
+  }
+
+  .portfolio-directory h2 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+}
+
+@media (min-width: 992px) { /* this guy is for the desktop browser view*/
+  .portfolio-directory {
+    
+    padding-top: 2rem;
+    height: 100vh;
+  }
+
+  .portfolio-directory h1 {
+    font-size: 6rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.2rem;
+  }
+  .portfolio-directory h2 {
+    max-width: 30rem;
+    font-size: 3rem;
+    line-height: 4rem;
+  }
 }
 
 footer {

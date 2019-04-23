@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw() {		
-background(200);
+clear();
 noFill();
 stroke(255);
   rotateX(frameCount * 0.01);
