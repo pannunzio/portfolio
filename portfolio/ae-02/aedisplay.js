@@ -1,15 +1,19 @@
 var canvas;
 var stage;
 var exportRoot;
+var begin = false;
 
 function init() {
-	canvas = document.getElementById("canvas");
-	images = images||{};
-	ss = ss||{};
-	var loader = new createjs.LoadQueue(false);
-	loader.addEventListener("fileload", handleFileLoad);
-	loader.addEventListener("complete", handleComplete);
-	loader.loadManifest(lib.properties.manifest);
+	if(!begin){
+		canvas = document.getElementById("canvas");
+		images = images||{};
+		ss = ss||{};
+		var loader = new createjs.LoadQueue(false);
+		loader.addEventListener("fileload", handleFileLoad);
+		loader.addEventListener("complete", handleComplete);
+		loader.loadManifest(lib.properties.manifest);
+		begin = true;
+	}
 }
 
 function handleFileLoad(evt) {	

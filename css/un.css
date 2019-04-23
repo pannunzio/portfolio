@@ -3,7 +3,7 @@
 }
 
 .body-content{
-	background: -webkit-linear-gradient(left, black 70%, #180000 90%, #6C0000);
+	background: -webkit-linear-gradient(left, black 70%, #890054 90%, #B79F00);
 }
 
 .body-content h1{
@@ -29,7 +29,7 @@
 
 @media (min-width: 768px) {
   .body-content{
-	background: -webkit-linear-gradient(left, black 70%, #180000 90%, #6C0000);
+	background: -webkit-linear-gradient(left, black 70%, #890054 90%, #B79F00);
 	}
 
 	.body-content h1{
@@ -51,7 +51,7 @@
 
 @media (min-width: 992px) {
   .body-content{
-		background: -webkit-linear-gradient(left, black 70%, #180000 90%, #6C0000);
+	background: -webkit-linear-gradient(left, black 70%, #890054 90%, #B79F00);
 	}
 
 	.body-content h1{
@@ -74,7 +74,7 @@
 }
 
 .canvas-block{
-	border: white 10px solid;
+	padding-top:3rem;
 }
 
 .content-space{

@@ -1,16 +1,15 @@
 
 function setup() {
- var cnv = createCanvas(windowWidth-10, windowHeight);
+ var cnv = createCanvas(windowWidth-10, windowHeight, WEBGL);
   cnv.parent('tester');
+
 }
 
-function draw() {
-  clear();
-  // write the text in black and get its bounding box
-  fill(0);
-  rect(mouseX, mouseY, 50, 50);
-
-  //bounds =  font.textBounds(message, x, y, fontsize);
-
-  // check if the mouse is inside the bounding box and tickle if so
+function draw() {		
+background(200);
+noFill();
+stroke(255);
+  rotateX(frameCount * 0.01);
+  rotateY(frameCount * 0.01);
+  box(50);
 }
